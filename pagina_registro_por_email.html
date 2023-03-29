@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logar com email</title>
+    <style>
+        
+        body
+        {
+        width:100%; /*largura*/  
+        height:100vh; /*altura*/  
+        display: flex;
+        margin: 0px;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;   /*dsds*/     
+        }
+
+        .d1
+        {
+            width: 100%;
+            height: 125px;
+            background-image: url(fundo.png);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            justify-items: center;
+            align-content: center;
+            align-items: center;    
+            border: 1px black solid;
+        }
+         .d2
+        {
+            width: 90%;
+            height: 90px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            justify-items: center;
+            align-content: center;
+            align-items: center;   
+        }
+         .dd1
+        {
+            width: 40px;
+            height: 40px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-items: center;
+            align-content: center;
+            align-items: center;   
+            
+        }
+
+        .divp1{
+            width: 100%;
+            height: 100vh; 
+            background-image: url(testedefundo.png);
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+
+            align-items: center; 
+
+            
+        }
+
+        .divp2{
+            height: 60px;
+            width: 90%;
+            background-color: white;
+            font-size: 20px;
+            font-family: 'Roboto';
+            padding: auto; 
+            text-align: center; 
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-content: space-around;
+            align-items: center; 
+            justify-content: space-around;
+            margin-top: 15px;
+        }
+        .divp3{
+            height: 220px;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-content: space-around;
+            align-items: center; 
+            justify-content: space-around;
+            background-color: rgb(185, 236, 255);
+            border: 2px outset rgb(53, 155, 192);
+            border-radius: 20px;
+            font-size: 16px;
+            font-family: 'Roboto';
+            padding: auto; 
+            text-align: justify;
+            margin-top: 10px;
+            
+        }
+        
+        .divp4{
+            width: 85%;
+            height: 60px; 
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+            align-content: space-around;
+            align-items: center; 
+            justify-content: space-around;
+            font-size: 18px;
+            margin-top: 15px;
+            border: 2px black outset;
+            border-radius: 20px;
+        }
+
+        .divp5{
+            height: 35px;
+            width: 60%;
+            background-color: green;
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+            align-content: space-between;
+            align-items: center; 
+            justify-content: space-around;
+            font-size: 21px;
+            border: 2px outset black;
+            border-radius: 35px;
+            margin-top: 15px;
+        }
+
+        .caixa_de_resposta
+        {
+            background-color: rgb(185, 236, 255);
+            border: 2px outset rgb(53, 155, 192);
+        }
+
+        .quadradotermo{
+            width:20px ;
+            height:20px ;
+            
+        }
+
+        .rodape
+        {
+            height: 125px;
+            width: 100%;
+            background-image: url(fundo.png);
+            border: 1px black solid;
+        }
+
+        a:link {text-decoration: none;}
+        
+
+        
+    </style>
+</head>
+<body>
+    <div class="d1">
+        <div class="d2">
+            <div class="dd1"><img src="dd1.png" alt="" width="15px"></div>
+            <a href="p.principal.html"> <img src="dd3.png" alt="" width="120px"></a>
+            <a href="pagina_carrinho_vazio.html"><div class="dd1"><img src="dd2.png" alt="" width="20px"></div></a>
+        </div>
+    </div>
+
+    <div class="divp1">
+        <div class="divp2"><b>Registro por email</b><img width="25px" src="LOGO1.png"></div>
+        <div class="divp2">Solicitamos apenas algumas<br>
+        informações,essenciais
+        </div>
+        <div class="divp3">
+            <div class=><table>
+                <tr>
+                  <td>Email:</td>
+                  <td><input class="caixa_de_resposta" type="text" name="nome" size="20"> <br /></td>
+                </tr>
+                <tr>
+                  <td>Senha:</td>
+                  <td><input class="caixa_de_resposta" type="password" name="sobrenome" size="20"> <br /></td>
+                </tr>
+                <tr>
+                    <td>Repetir senha:</td>
+                    <td><input  class="caixa_de_resposta" type="password" name="nome" size="20"> <br /></td>
+                  </tr>
+                  <tr>
+                    <td>CEP:</td>
+                    <td><input class="caixa_de_resposta" type="text" name="cep" size="5" maxlength="5"> - <input class="caixa_de_resposta" type="text" name="cep2" size="3" maxlength="3"> <br /></td>
+                  </tr>
+                  <tr>
+                    <td>CPF:</td>
+                    <td><input class="caixa_de_resposta" type="text" name="n" size="9" maxlength="9"> - <input class="caixa_de_resposta" type="text" name="cep2" size="3" maxlength="2"> <br /></td>
+                  </tr>
+                  <tr>
+                    <td>Nome:</td>
+                    <td><input class="caixa_de_resposta" type="text" name="sobrenome" size="20"> <br /></td>
+                  </tr>
+                  <tr>
+                    <td>Sobrenome:</td>
+                    <td><input class="caixa_de_resposta" type="text" name="sobrenome" size="20"> <br /></td>
+                  </tr>
+                  <tr>
+                    <td>Data de nascimento:</td>
+                    <td><input class="caixa_de_resposta" type="date" name="sobrenome" size="20"> <br /></td>
+                  </tr>
+                
+                
+
+               </table></div>
+        </div>
+        <div class="divp4"><input class="quadradotermo" type="checkbox">Eu li e concordo com os termos de uso</div>
+        <div class="divp5"><a href="pagina_cadastro_finalizado.html">Finalizar cadastro</a> </div>
+    </div>
+    <div class="rodape"></div>
+</body>
+</html>
